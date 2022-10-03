@@ -1,0 +1,139 @@
+.navbar {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar .list{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 20px;
+    width: 500px;
+}
+
+.navbar .list ul{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    border: 1px solid black;
+    width: 400px;
+}
+
+.main {
+    padding-top: 30px;
+    text-align: center;
+    color: #696969;
+    font-family: sans-serif;
+}
+
+.main img{
+    padding-bottom: 100px;
+}
+
+.main h4{
+    padding-top: 20px;
+    color: #9d9d9d;
+    font-size: 16px;
+    padding-bottom: 100px;
+}
+
+.main .images1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main .images1 img{
+    width: 440px;
+    height: 280px;
+}
+
+.main .images2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main .images2 img{
+    width: 440px;
+    height: 280px;
+    padding-bottom: 0px;
+}
+
+.main2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main2 img{
+    height: 220px;
+    width: 380px;
+}
+
+.main2 .post1{
+    height: 500px;
+    width: 400px;
+    /* border: 1px solid black; */
+}
+
+.main2 .post1 h4{
+    position: absolute;
+    left: 90px;
+    top: 2670px;
+    color: #5d5d5d;
+    font-size: 15px;
+    font-family: sans-serif;
+
+}
+
+.main2 .post2{
+    height: 300px;
+    width: 400px;
+}
+
+
+.main2 .post2 h4{
+    position: absolute;
+    left: 490px;
+    top: 2670px;
+    color: #5d5d5d;
+    font-size: 15px;
+    font-family: sans-serif;
+
+}
+
+.main2 .post3{
+    height: 300px;
+    width: 400px;
+}
+
+.main2 .post3 h4{
+    position: absolute;
+    left: 890px;
+    top: 2670px;
+    color: #5d5d5d;
+    font-size: 15px;
+    font-family: sans-serif;
+
+}
+
+.bef-footer{
+    background-color: #f1f1f1;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bef-footer p{
+    position: absolute;
+    left: 90px;
+    font-size: 18px;
+}
+
+.footer{
+    height: 400px;
+    background-color: #9d9d9d;
+}
